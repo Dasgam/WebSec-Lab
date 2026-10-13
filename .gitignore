@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -57,10 +58,27 @@ cover/
 *.pot
 
 # Django stuff:
+=======
+*.bat
+*.md
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+>>>>>>> b6aa95f (328 fix)
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+<<<<<<< HEAD
 
 # Flask stuff:
 instance/
@@ -218,3 +236,51 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+=======
+media/
+staticfiles/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets.json
+credentials.json
+
+node_modules/
+dist/
+.vite/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+*.tar
+*.tar.gz
+docker-compose.override.yml
+
+*.tmp
+*.temp
+*.bak
+*.orig
+*.old
+
+Thumbs.db
+>>>>>>> b6aa95f (328 fix)
